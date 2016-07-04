@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-   - source: /var/www/html/wp-content/themes/
-     destination: /var/www/html/wp-content/themes
+   - source: /
+     destination: /home/ec2/independent-publisher/
 permissions:
    - object: /var/www/html/wp-content/themes
      pattern: "**"
