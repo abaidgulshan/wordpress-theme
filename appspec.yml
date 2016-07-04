@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-   - source: /
+   - source: /var/www/html/wp-content/themes/
      destination: /var/www/html/wp-content/themes
 permissions:
    - object: /var/www/html/wp-content/themes
