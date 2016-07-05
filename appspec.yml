@@ -3,14 +3,6 @@ os: linux
 files:
    - source: /
      destination: /home/ec2-user/independent-publisher
-permissions:
-   - object: /var/www/html/wp-content/themes/independent-publisher
-     pattern: "**"
-     owner: apache
-     group: apache
-     mode: 755
-     type:
-       - file
 hooks:
    BeforeInstall:
     - location: scripts/start_server.sh
