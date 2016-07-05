@@ -5,10 +5,10 @@ files:
      destination: /home/ec2-user/independent-publisher
 hooks:
    BeforeInstall:
-    - location: /home/ec2-user/independent-publisher/independent-publisher/scripts/start_server.sh
+    - location: scripts/start_server.sh
       runas: root
    AfterInstall:
-    - location: /home/ec2-user/independent-publisher/independent-publisher/scripts/change_permissions.sh
+    - location: scripts/change_permissions.sh
       runas: root
-    - location: /home/ec2-user/independent-publisher/independent-publisher/scripts/stop_server.sh
+    - location: scripts/stop_server.sh
       runas: root
