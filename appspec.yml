@@ -4,7 +4,7 @@ files:
    - source: /
      destination: /home/ec2/independent-publisher/
 permissions:
-   - object: /var/www/html/wp-content/themes
+   - object: /var/www/html
      pattern: "**"
      owner: apache
      group: apache
