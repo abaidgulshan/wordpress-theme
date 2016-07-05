@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /home/ec2/independent-publisher/
+     destination: /home/ec2-user/independent-publisher
 permissions:
-   - object: /var/www/html
+   - object: /var/www/html/
      pattern: "**"
      owner: apache
      group: apache
